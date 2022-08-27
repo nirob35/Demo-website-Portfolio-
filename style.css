@@ -1,0 +1,126 @@
+/*================
+    Common Css
+==================*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}    
+
+a{
+    text-decoration: none;
+}
+
+img{
+    border: 0;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+.clr{
+    clear: both;
+}
+
+.full-wrapper {
+    width: 100%;
+}
+
+.wrapper {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family:nirob;
+    src: url(../fonts/Nunito-Medium.ttf);
+}
+/*===================
+    Header part Css
+=====================*/
+.header-bg{
+    background: url(../images/milky-way-2695569__480.jpg) no-repeat center center/cover;
+    opacity: 0.9;
+}
+
+.menu ul{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.menu ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu ul a{
+    color: white;
+    font-family: nirob;
+    font-size: 24px;
+}
+
+.menu ul a:hover{
+    color: rgb(226, 108, 29);
+    transition: 0.3s all linear ;
+}
+
+.menu h2{
+    text-align: center;
+    padding-top: 160px;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size:48px;
+}
+
+.menu h2 span{
+    color: rgb(226, 108, 29);
+}
+
+.menu p{
+    padding-top: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.menu .span{
+    padding-top: 5px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+.menu .span::after{
+    position: absolute;
+    content: "";
+    width: 570px;
+    height: 5px;
+    color: #fff;
+    left: 0px;
+    bottom: 0px;
+}
+
+.menu .font{
+    padding-top: 56px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.menu .font i{
+    margin-right: 20px;
+    font-size: 40px;
+}
+
+.menu .font i:hover{
+   color:  rgb(226, 108, 29);
+   transition: 0.3s all linear ;
+}
+
+.menu .arrow{
+    padding-top: 140px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 224px;
+    font-size: 20px;
+    font-weight: bold;
+}
